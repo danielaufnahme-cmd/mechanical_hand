@@ -14,15 +14,24 @@ elbow; it is just the hand itself.
 - The servos run from their own 5 V supply. The PC's USB port only powers the
   ESP32, because USB cannot supply enough current for five servos.
 
-## Hardware
-
-- ESP32-S3 board
-- 5x 15 kg 180° servos
-- 5 V 10 A power adapter
-
 ## Shopping list
 
-The full list of parts I bought, with prices, is coming soon.
+| Part | What it's for | Shop | Price |
+|---|---|---|---|
+| [ESP32-S3 board](https://www.amazon.es/dp/B0BMQB2MG1) | Controls the servos (taken from the Freenove starter kit) | Amazon.es | €10.99 |
+| [Miuzei 15 kg servo, 180°, ×5](https://www.amazon.es/dp/B0BTYRBBFY) | One per finger | Amazon.es | €30.99 |
+| [Tesfish 5 V 10 A adapter](https://www.amazon.es/dp/B083QNN7Z7) | Powers the servos | Amazon.es | €24.99 |
+| [DC jack 5.5 × 2.5 mm](https://es.aliexpress.com/item/1005012652732602.html) | The adapter plugs in here | AliExpress | €3.69 |
+| [Capacitor 2200 µF 16 V, ×10](https://es.aliexpress.com/item/32812576995.html) | Smooths the servo power | AliExpress | €2.56 |
+| ELEGOO PLA+ filament, 2 kg, grey | Printing the hand | Amazon.es | €23.14 |
+| AliExpress shipping | | AliExpress | €1.96 |
+| **Total** | | | **€98.32** |
+
+The ESP32-S3 is counted at the price of a plain board. I bought it as part of
+the Freenove starter kit (€34.95).
+
+Also used, already at hand: string, rubber bands, female jumper wires, Wago
+lever connectors and a 3D printer (Creality Ender 3 V3 KE).
 
 ## Files
 
