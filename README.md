@@ -1,6 +1,6 @@
 # Mechanical Hand
 
-A 3D-printed, servo-driven robotic hand built around an ESP32-S3.
+A 3D-printed, servo-driven robotic hand built around an ESP32-S3, wich is currently in development not finished yet.
 
 The project covers only the fingers and the palm. There is no wrist, forearm or elbow; it is just the hand itself.
 
